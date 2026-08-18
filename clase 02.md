@@ -34,6 +34,8 @@
 **Mapa navegación**
 - Permite realizar una jerarquía comprensible, definiendo categorías principales y secundarias.
 
+![titulo](./imagenes/mapanavegacion.png)
+
 **Wireflow**
 - Representa visualmente las pantallas por las cuales viaja el usuario durante la navegación de algún sitio o aplicación.
 
