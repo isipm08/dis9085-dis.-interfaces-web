@@ -37,6 +37,21 @@ descargar recovery codes al activarla 2FA -- guardar en lugar seguro
 - iniciar activación 2FA: sección two factor authentication -- clic botón enable two factor authentication
 - vincular una aplicación: seleccionar github mobile
 
+### Hacks HTML
+```cpp
+<h1>Título</h1>
+<p>Párrafo</p>}
+<strong>Bold</strong>
+<a href="link">Ver el link</a>
+<ul> //para reconocer el listado 
+// ol es lista enumerada
+-  <li>Lista</li>
+-  <li>Lista</li>
+-  <li>Lista</li>
+<ul/>
+<img src="nombre imagen. formato"alt="descrpción imagen">
+```
+
 ### bibliografía complementaria 
 Html y Css. Diseño y Construcción de Sitios web.
 
