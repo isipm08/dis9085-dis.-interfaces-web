@@ -52,7 +52,7 @@ descargar recovery codes al activarla 2FA -- guardar en lugar seguro
 <img src="nombre imagen. formato"alt="descrpción imagen">
 <etiqueta id="descripción" -- sirve después para los links
 !<--comentar-->
-! + enter
+! + enter (código html predeterminado)
 <a href=#contexto">Contexto</a></li> -- para ir como a un link directo dentro de la página web, realizarlo en la lista
 ```
 
