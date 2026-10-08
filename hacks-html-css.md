@@ -175,3 +175,5 @@ flex: se escribe en los hijos, crezcan para repartirse en el espacio (.tarjeta {
 
 footer -- parte de abajo final
 ```
+
+<https://drive.google.com/drive/folders/1pI5nY1DA4nmVv0s1hnI7IXGH5ixJoU8I?hl=es>
