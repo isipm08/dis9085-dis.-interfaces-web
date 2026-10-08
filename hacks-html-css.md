@@ -92,9 +92,13 @@ id -- nombre único página, sirve para los enlaces internos de single page
 # Hacks CSS
 ```
 <link rel="stylesheet href="style.css"> -- ponerlo en el index html -- head (para aplicar css)
+
 /* comentario */
+
 rem -- 3rem (todos los lados) 3rem 2rem (arriba y abajo) (lados)
+
 * al principio para aplicar en toda la página
+
 si quiero destacar una frase dentro de un párrafo realizar clase + propiedad -- ej: strong
 
 si quiero modificar un texto solamente
@@ -107,19 +111,67 @@ html
 <p class= "nombre clase";
 
 margin: 0; -- elimina márgenes que trae por defecto
-font-family: fuente principal
-color: texto general fuente
+
+font-family: fuente principal -- se escriba una lista, si la 1ra no estáa pasa a la siguiente (font-family: Inter, Arial,sans-serif;)
+
+color: texto general fuente -- (color: #2B2B2B;)
+
+font-size: tamaño texto (font-size: 1.25rem;)
+
+font-weight: grosor texto (font-weight: bold; · font-weight: 600;)
+
+line-height: interlineado (line-height: 1.6;)
+
+text-decoration: subrayado en los enlaces (text-decoration: none;)
+
 background: #000000 fondo navegación
+
+box-sizing: define ancho -- incluye padding y borde (* { box-sizing: border-box; })
+
+width: ancho caja (width: 50%;)
+
 img { max-width: 100%; } -- impide que una imagen sobrepase el contenedor "padre"
+
 div -- bloques de contenido
 
 header { ... }
-max-width: 75rem;: ancho máximo para el contenedor del encabezado 
-margin: 0 auto;: centra horizontalmente la caja en la pantalla
-padding: 3rem 2rem;: Agrega espacio interno (arriba/abajo: 3rem, lados: 2rem)
-border-bottom: 4px solid rgb(196, 111, 7);: pinta una línea divisoria inferior
+
+max-width: 75rem;: ancho máximo para el contenedor del encabezado (max-width: 50rem; · img {max-width: 100%; })
+
+height: alto caja
+
+min-height: alto mínimo
+
+margin: 0 auto;: centra horizontalmente la caja en la pantalla, transparente (margin: 0; · margin: 0 auto; ·
+margin-bottom: 1rem;)
+
+padding: 3rem 2rem;: Agrega espacio interno, toma color fondo (arriba/abajo: 3rem, lados: 2rem) (padding: 1rem; · padding:1rem 2rem; · padding: 1rem 2rem 3rem 0;)
+
+border-bottom: 4px solid rgb(196, 111, 7);: pinta una línea divisoria inferior (border: 1px solid #D9D2C5; ·
+border-bottom: 4px solid #B08452;)
+
+border-radius: redondea esquinas (border-radius: 10px;)
+
+list-style: viñetas de una lista (list-style: none;)
+
+:hover -- el mouse está sobre el elemento (.boton:hover { background: #B5543C; })
+
+:focus-visible -- escribe junto al hover para que el sitio funcione sin mouse (.boton:hover, .boton:focus-visible { ... })
+
+display: comportamiento caja (display: block; · display: inline-block; · display: flex;)
+
+flex-direction: dirección en que se ordenan los hijos (flex-direction: column;)
+
+justify-content: distribuye hijos a los largo de la dirección principal (justify-content: space-between;)
+
+align.items: alinea a los hijos en vertical (align-items: center;)
+
+gap: espacio entre hijos (gap: 1.5rem;)
+
+flex-wrap: permite que los hijos que no caben pasen a una nueva línea (flex-wrap: wrap;)
+
+flex: se escribe en los hijos, crezcan para repartirse en el espacio (.tarjeta { flex: 1; })
 
 
 footer -- parte de abajo final
 ```
-## Estructura general CSS
