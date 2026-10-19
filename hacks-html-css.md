@@ -172,8 +172,18 @@ flex-wrap: permite que los hijos que no caben pasen a una nueva línea (flex-wra
 
 flex: se escribe en los hijos, crezcan para repartirse en el espacio (.tarjeta { flex: 1; })
 
+position: sticky;
+  top: 0; -- para dejar definido la parte de arriba
 
 footer -- parte de abajo final
+```
+## Media Quaries
+```
+@media {max-width: 1024px;} { -- siempre llamar y determinar tamaño
+  .dos-columnas,
+  .seccion {
+    padding: 3rem 2rem;
+  }
 ```
 
 <https://drive.google.com/drive/folders/1pI5nY1DA4nmVv0s1hnI7IXGH5ixJoU8I?hl=es>
