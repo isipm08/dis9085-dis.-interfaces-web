@@ -32,3 +32,14 @@ Hay que traer:
 * Bitácora: Link al Figma.
 * Figma: Boceto y wireframes de baja de las páginas del sitio.
 * UI kit del sitio en Figma: colores, tipografías, botones y otros componentes base.
+
+### sitios web referencias
+<https://www.awwwards.com/websites/interaction-design/> web donde encontré páginas web interactivas
+
+<https://bernardita-jesus.github.io/portafolio/index.html> -- tipografía
+
+<https://andreas.vision/> -- paletas colores y estetica
+
+<https://effepinnastudio.com/> -- interacciones
+
+<https://uimaven.art/portfolio/> -- paleta color, muuuy intercativo, estetica computador
